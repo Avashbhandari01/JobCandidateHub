@@ -17,7 +17,7 @@ namespace JobCandidateHub.Infrastructure.Dependency
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString,
-                    b => b.MigrationsAssembly("Infrastructure")));
+                    b => b.MigrationsAssembly("JobCandidateHub.Infrastructure")));
 
             services.AddTransient<IGenericRepository, GenericRepository>();
             services.AddScoped<ICandidateService, CandidateService>();

@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCandidateHub.Application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCandidateHub.Infrastructure", "JobCandidateHub.Infrastructure\JobCandidateHub.Infrastructure.csproj", "{D3E1C03C-B9B7-481C-A8B1-1DAB17D4C48B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DE4620EB-BAF4-4D67-8E97-AF3601DC11C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,7 @@ Global
 		{56B77BB9-FED4-450A-AA79-3A8097E68D5D} = {D2B1D9FC-3F0C-4AA2-9097-0E4686AE7BEF}
 		{9955A6EE-3D92-4CB7-ABD8-5D5331E28184} = {D2B1D9FC-3F0C-4AA2-9097-0E4686AE7BEF}
 		{D3E1C03C-B9B7-481C-A8B1-1DAB17D4C48B} = {8D8B9B84-963C-4FFF-82D6-6AEE5A523AE2}
+		{DE4620EB-BAF4-4D67-8E97-AF3601DC11C7} = {07A4F80A-7224-4740-B899-C340A926D287}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94CE6280-D1DF-4F93-AD95-353F321CE5FF}
