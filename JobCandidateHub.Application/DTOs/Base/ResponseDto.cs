@@ -8,6 +8,8 @@ namespace JobCandidateHub.Application.DTOs.Base
 
         public string StatusMessage { get; set; }
 
+        public string Message { get; set; }
+
         public T ResponseData { get; set; }
     }
 }
